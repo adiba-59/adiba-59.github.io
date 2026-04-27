@@ -6,15 +6,41 @@ body {
 nav{
   background-color: #333
   padding: 10px;
+  text-aligh: center;
 }
 nav a{
   color: maroon;
   margin-right: 15px;
   text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
 }
 nav a:hover{
   text-decoration: underline;
+  color: #f8d338;
+}
+.container{
+  max-width: 800px;
+  margin: 40px auto;
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 h1 {
-  color: #333;
+  text-align: center;
+  color: #88a3ae;
+}
+table{
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+ th{
+   text-align: left;
+   background-color: #fa9669;
+ }
+th, td{
+  padding: 12px;
+  border-bottom: 1px solid #ebcfcf;
 }
